@@ -1,7 +1,7 @@
 # Portfolio
 ### Build on Python
 
-Portfolio site created by Shan Khalama about his projects and recent works on Python, Angular ang Ionic .
+Portfolio site created by Shan Khalam about projects and recent works on Python, Angular and Ionic .
 
 ## About Me
 
