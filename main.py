@@ -11,7 +11,7 @@ with col1:
 with col2:
     st.title("Shan Khalam")
     content = """
-    I am Shan Khalam, a software developer at Swophistic Software Solutions. Although I graduated as a pharmacist 
+    I am Shan Khalam, a Software Developer at Swophistic Software Solutions. Although I graduated as a pharmacist 
     from Kerala University, my passion for programming led me to my current position. I mainly specialize in Python 
     and possess a strong understanding of Angular and Ionic frameworks. I am particularly interested in developing 
     desktop and web applications. Additionally, I enjoy creating both dynamic and static websites using WordPress and 
@@ -25,13 +25,18 @@ st.write(content2)
 
 df = pandas.read_csv('data.csv', sep=';')
 
-col3, col4 = st.columns(2)
+col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 with col3:
     for index, row in df[:10].iterrows():
         st.header(row['title'])
+        st.write(row["description"])
+        st.image("images/" + row['image'])
+
 with col4:
     for index, row in df[10:].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row['image'])
 
 
