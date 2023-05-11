@@ -11,10 +11,10 @@ with col1:
 with col2:
     st.title("Shan Khalam")
     content = """
-    I am Shan Khalam, a Software Developer at Swophistic Software Solutions. Although I graduated as a pharmacist 
-    from Kerala University, my passion for programming led me to my current position. I mainly specialize in Python 
+    I am Shan Khalam, a Software Developer at Swophistic Software Solutions. Although I graduated as a pharmacist , 
+    my passion for programming led me to my current position. I mainly specialize in Python 
     and possess a strong understanding of Angular and Ionic frameworks. I am particularly interested in developing 
-    desktop and web applications. Additionally, I enjoy creating both dynamic and static websites using WordPress and 
+    Desktop and Web applications. Additionally, I enjoy creating both dynamic and static websites using WordPress and 
     Bootstrap.
     """
     st.info(content)
