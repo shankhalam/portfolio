@@ -10970,3 +10970,12 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+@media screen and (min-width:1024px){
+  .dev-icons{
+    display: flex;
+    flex-direction: row;
+  }
+  .dev-icons .right{
+    margin-left: 10%;
+  }
+}
