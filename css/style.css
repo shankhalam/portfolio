@@ -1,0 +1,51 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+.hero {
+  background: #f8f9fa;
+  margin-top: 56px;
+}
+
+.project-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  background: #007bff;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.bg-light-blue {
+  background-color: #f8f9fa;
+}
+.carousel-inner{
+  height: 75vh;
+}
+.carousel-item{
+  height: 75vh;
+}
